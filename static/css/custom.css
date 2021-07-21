@@ -1,0 +1,35 @@
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/main.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black-dots.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white.css');
+@import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white-dots.css');
+
+:root {
+    --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --ls-main-content-max-width: 900px;
+    --ls-tag-text-opacity: 0.6;
+    --ls-tag-text-hover-opacity: 0.8;
+    --ls-page-text-size: 1em;
+    --ls-page-title-size: 36px;
+}
+
+html,
+body {
+  font-size: 1em;
+}
+
+/* self defined tags */
+a.tag[href*="KnowHow"] {
+    background: #ffc82a !important;
+    color: #fff !important;
+    padding: 2px 2px;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+a.tag[href*="KnowHow"]:hover {
+    background: #ffc82a !important;
+    color: #27352b !important;
+    padding: 2px 2px;
+    line-height: 1.2em;
+    font-weight: 500;
+}
