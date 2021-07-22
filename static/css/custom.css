@@ -42,12 +42,12 @@ a.tag[data-ref]:hover {
 a.tag[data-ref]:before {
   background-color: #282a36;
   border-radius: 50%;
-  content: '';
+  content: '🏷️';
   display: inline-block;
   height: 0.6rem;
   line-height: 0.8rem;
-  margin-right: 0.3rem;
-  width: 0.6rem;
+  margin-right: 20px;/*0.6rem;*/
+  width: 0rem;
 }
 
 a.tag[data-ref="KnowHow"] {
@@ -62,25 +62,25 @@ a.tag[data-ref="KnowHow"] {
 }
 /*
 a.tag[href*="KnowHow"]:hover {
-    background: #ffc82a !important;
-    color: #27352b !important;
-    padding: 2px 2px;
-    line-height: 1.2em;
-    font-weight: 500;
+  background: #ffc82a !important;
+  color: #27352b !important;
+  padding: 2px 2px;
+  line-height: 1.2em;
+  font-weight: 500;
 }
 */
 
 a.tag[href*="Idea"] {
-    background: rgba(241, 196, 15, 1) !important;
-    color: #fff !important;
-    padding: 2px 2px;
-    line-height: 1.2em;
-    font-weight: 500;
+  background: rgba(241, 196, 15, 1) !important;
+  color: #fff !important;
+  padding: 2px 2px;
+  line-height: 1.2em;
+  font-weight: 500;
 }
 a.tag[href*="Idea"]:hover {
-    background: rgba(241, 196, 15, 1) !important;
-    color: #27352b !important;
-    padding: 2px 2px;
-    line-height: 1.2em;
-    font-weight: 500;
+  background: rgba(241, 196, 15, 1) !important;
+  color: #27352b !important;
+  padding: 2px 2px;
+  line-height: 1.2em;
+  font-weight: 500;
 }
