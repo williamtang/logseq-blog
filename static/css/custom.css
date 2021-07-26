@@ -1,12 +1,16 @@
+/*
 @import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/main.css');
 @import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black.css');
 @import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/dark-black-dots.css');
 @import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white.css');
 @import url('https://piotrsss.github.io/logseq-tools/public/bujo-css/light-white-dots.css');
+*/
+
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
 
 :root {
     --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    --ls-main-content-max-width: 900px;
+    /*--ls-main-content-max-width: 900px;*/
     --ls-tag-text-opacity: 0.6;
     --ls-tag-text-hover-opacity: 0.8;
     --ls-page-text-size: 1em;
@@ -50,6 +54,21 @@ a.tag[data-ref]:before {
   width: 0rem;
 }
 
+a.tag[data-ref="Idea"] {
+  background: rgba(241, 196, 15, 1) !important;
+  color: #fff !important;
+  padding: 2px 2px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+a.tag[data-ref="Idea"]:hover {
+  background: rgba(241, 196, 15, 1) !important;
+  color: #27352b !important;
+  padding: 2px 2px;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
 a.tag[data-ref="KnowHow"] {
   background: #ffc82a !important;
   color: #fff !important;
@@ -69,18 +88,3 @@ a.tag[href*="KnowHow"]:hover {
   font-weight: 500;
 }
 */
-
-a.tag[href*="Idea"] {
-  background: rgba(241, 196, 15, 1) !important;
-  color: #fff !important;
-  padding: 2px 2px;
-  line-height: 1.2em;
-  font-weight: 500;
-}
-a.tag[href*="Idea"]:hover {
-  background: rgba(241, 196, 15, 1) !important;
-  color: #27352b !important;
-  padding: 2px 2px;
-  line-height: 1.2em;
-  font-weight: 500;
-}
