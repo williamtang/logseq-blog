@@ -10,7 +10,7 @@
 
 :root {
     --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    /*--ls-main-content-max-width: 900px;*/
+    --ls-main-content-max-width: 950px;
     --ls-tag-text-opacity: 0.6;
     --ls-tag-text-hover-opacity: 0.8;
     --ls-page-text-size: 1em;
