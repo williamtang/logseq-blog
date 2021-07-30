@@ -8,6 +8,7 @@
 
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
 
+/*
 :root {
     --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --ls-main-content-max-width: 950px;
@@ -16,6 +17,7 @@
     --ls-page-text-size: 1em;
     --ls-page-title-size: 36px;
 }
+*/
 
 html,
 body {
