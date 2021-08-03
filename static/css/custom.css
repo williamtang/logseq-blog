@@ -8,20 +8,28 @@
 
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
 
-/*
 :root {
-    --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --ls-font-family: 'IBM Plex Sans', "方正屏显雅宋简体", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !important;
     --ls-main-content-max-width: 950px;
     --ls-tag-text-opacity: 0.6;
     --ls-tag-text-hover-opacity: 0.8;
     --ls-page-text-size: 1em;
-    --ls-page-title-size: 36px;
+    /*--ls-page-title-size: 36px;*/
 }
-*/
 
 html,
 body {
   font-size: 1em;
+}
+
+h1.title {
+	margin-bottom: 1rem;
+	font-weight: 900;
+	font-size: 48px !important;
+	font-family: "Arial Black" !important;
+	padding: 0px;
+	line-height: 3rem;
+	text-align: left;
 }
 
 /* self defined tags */
